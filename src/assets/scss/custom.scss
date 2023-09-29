@@ -106,6 +106,10 @@ h2.title.mt--10.title4 {
   margin-left: 12rem;
 }
 
+.footer-style-default .footer-top .rn-footer-widget .footer-link li a {
+  color: white;
+}
+
 @media (max-width: 991px) {
   .list-icon {
     width: 100%;
@@ -125,6 +129,22 @@ h2.title.mt--10.title4 {
 
   .video-spice {
     padding: 50px;
+  }
+
+  .thumbnail {
+    height: 434px;
+  }
+  
+  .thumbnail3 {
+    height: 434px;
+  }
+  
+  .thumbnail4 {
+    height: 434px;
+  }
+
+  .banner-sky {
+    height: 434px;
   }
 }
 
