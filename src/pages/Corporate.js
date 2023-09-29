@@ -9,11 +9,12 @@ import FooterOne from '../common/footer/FooterOne';
 import AboutTwo from "../elements/about/AboutTwo";
 import AboutOld from "../elements/about/AboutOld";
 import AboutThree from '../elements/about/AboutThree';
+import { Border } from '../components/Border/Border';
 
 const Corporate = () => {
     return (
         <>
-            <SEO title="Corporate" />
+            <SEO />
             <main className="page-wrapper">
                 <div className="logo-nova">
                     <img src='./images/icespice/logo.png' alt='Logo da empresa'/>
@@ -43,8 +44,11 @@ const Corporate = () => {
 
                 {/* About */}
                 <AboutTwo />
+                <Border/>
                 <AboutOld/>
+                <Border/>
                 <AboutThree/>
+                <Border/>
 
                 <div className='video-spice'>
                     <video controls name="media">

@@ -148,6 +148,17 @@ h2.title.mt--10.title4 {
   }
 }
 
+.border-custom {
+  width: 100%;
+  border: 0.5px solid #c7c7c7
+}
+
+.width-border {
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: #fff;
+}
+
 @media (max-width: 991px) {
   .footer-new {
     gap: 0px;
@@ -158,6 +169,12 @@ h2.title.mt--10.title4 {
 
   .description-card {
     margin-left: 0rem;
+  }
+
+  .width-border {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #fff;
   }
 }
 
