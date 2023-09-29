@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "title": "Create Website By Doob So Quick Download And Make Your Site."
+        "title": "WolCoff"
     },
 
     {
         "id": 2,
-        "title": "Services",
+        "title": "Redes Sociais",
         "quicklink": [
             {
                 "id": 1,
-                "text": "About",
+                "text": "Instagram",
                 "url": "/about"
             },
             {
                 "id": 2,
-                "text": "Portfolio",
+                "text": "Facebook",
                 "url": "/portfolio"
             },
             {
                 "id": 3,
-                "text": "Contact",
+                "text": "Pinterest",
                 "url": "/contact"
             },
             {
                 "id": 4,
-                "text": "Service",
+                "text": "X",
                 "url": "/service"
             }
         ]
@@ -60,26 +60,26 @@
 
     {
         "id": 4,
-        "title": "Company",
+        "title": "Site",
         "quicklink": [
             {
                 "id": 1,
-                "text": "Pricing",
+                "text": "Sobre nós",
                 "url": "/pricing"
             },
             {
                 "id": 2,
-                "text": "Team",
+                "text": "Fintech",
                 "url": "/team"
             },
             {
                 "id": 3,
-                "text": "Advance Tab",
+                "text": "FAQ",
                 "url": "/advance-tab"
             },
             {
                 "id": 4,
-                "text": "Service",
+                "text": "Contato",
                 "url": "/service"
             }
         ]

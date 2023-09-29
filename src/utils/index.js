@@ -3,8 +3,6 @@ function flatDeep(arr, d = 1) {
                : arr.slice();
 }
 
-
-
 const slugify = function(text) {
     return text
       .toString()

@@ -29,15 +29,6 @@
 @import 'color/themebg';
 
 /**************************************
-    Header Styles
-***************************************/
-@import 'header/header';
-@import 'header/nav';
-@import 'header/mobilemenu';
-@import 'header/headertop';
-
-
-/**************************************
     Elements Styles
 ***************************************/
 @import 'elements/sctiontitle';
@@ -74,10 +65,6 @@
     Blog Styles
 ***************************************/
 
-@import 'blog/blog';
-@import 'blog/sidebar';
-@import 'blog/blog-details';
-
 
 
 /**************************************
@@ -96,4 +83,8 @@
 @import 'footer/footer';
 @import 'footer/copyright';
 @import 'footer/darkmode';
+
+
+// Custom
+@import 'custom.scss';
 
