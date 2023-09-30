@@ -46,7 +46,7 @@ const FooterOne = () => {
                                         <h4 className="title">Endereço</h4>
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
-                                                <li><a href=''>Rua Exemplo, n00</a></li>
+                                                <li><a href=''>Av Paulista 2444, sala 103</a></li>
                                                 <li><a href=''>São Paulo - SP</a></li>
                                             </ul>
                                         </div>
