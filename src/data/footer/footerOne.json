@@ -11,55 +11,18 @@
             {
                 "id": 1,
                 "text": "Instagram",
-                "url": "/about"
+                "url": "https://www.instagram.com/lindanevee/"
             },
             {
                 "id": 2,
                 "text": "Facebook",
-                "url": "/portfolio"
-            },
-            {
-                "id": 3,
-                "text": "Pinterest",
-                "url": "/contact"
-            },
-            {
-                "id": 4,
-                "text": "X",
-                "url": "/service"
+                "url": "https://www.facebook.com/lindaneve.com.br"
             }
         ]
     },
 
     {
         "id": 3,
-        "title": "Solutions",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Gallery",
-                "url": "/gallery"
-            },
-            {
-                "id": 2,
-                "text": "About Us",
-                "url": "/about-us"
-            },
-            {
-                "id": 3,
-                "text": "Testimonial",
-                "url": "/testimonial"
-            },
-            {
-                "id": 4,
-                "text": "Timeline",
-                "url": "/timeline"
-            }
-        ]
-    },
-
-    {
-        "id": 4,
         "title": "Site",
         "quicklink": [
             {
@@ -86,35 +49,8 @@
     },
 
     {
-        "id": 5,
-        "title": "Resources",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "About",
-                "url": "/about"
-            },
-            {
-                "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
-            },
-            {
-                "id": 3,
-                "text": "Contact",
-                "url": "/contact"
-            },
-            {
-                "id": 4,
-                "text": "Service",
-                "url": "/service"
-            }
-        ]
-    },
-
-    {
-        "id": 6,
-        "title": "Stay With Us.",
-        "subtitle": "2000+ Our clients are subscribe Around the World"
+        "id": 4,
+        "title": "Ice Spice",
+        "subtitle": ""
     }
 ]

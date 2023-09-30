@@ -36,7 +36,7 @@ const AboutThree = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <div className="read-more-btn mt--40">
+                                        <div className="read-more-btn mt--40 center-btn">
                                             <Link className="btn-default btn-icon" to="#">WhatsApp <i className="icon"><FiArrowRight /></i></Link>
                                         </div>
                                     </ScrollAnimation>

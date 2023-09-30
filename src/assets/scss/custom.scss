@@ -202,3 +202,10 @@ h2.title.mt--10.title4 {
     font-size:50px;
   }
 }
+
+@media (max-width: 767px) {
+  .center-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
