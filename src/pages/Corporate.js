@@ -33,7 +33,7 @@ const Corporate = () => {
                                         <li style={{ color: 'white' }}>A sua próxima snow trip será inesquecível! Esteja pronto para escolher as suas roupas de ski em um closet chique e fashion.</li>
                                     </ul>
                                     <div className="button-group mt--40 mt_sm--20 center-btn">
-                                        <button className="btn-default btn-icon" target="_blank" href="#">Já quer Alugar? Clique aqui <i className="icon"><FiArrowRight /></i></button>
+                                        <button className="btn-default btn-icon" target="_blank" href="wa.me/message/TEJUZ4GJYQJOO1">Já quer Alugar? Clique aqui <i className="icon"><FiArrowRight /></i></button>
                                     </div>
                                 </div>
                             </div>
