@@ -64,7 +64,7 @@ const Corporate = () => {
                 <AboutThree/>
                 <Border/>
 
-                <div className='video-spice'>
+                <div className='video-spice' id="sobre">
                     <video controls name="media">
                         <source src="./images/icespice/videos/video-spice.mp4" type="video/mp4" />
                         Your browser does not support the video tag.

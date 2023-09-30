@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const AboutThree = () => {
     return (
-        <div className="rwt-about-area about-style-2 rn-section-gap">
+        <div className="rwt-about-area about-style-2 rn-section-gap" id="fintech">
             <div className="container">
                 <div className="row row--30 align-items-center">
                     <div className="col-lg-5">

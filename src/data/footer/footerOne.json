@@ -1,56 +1,48 @@
 [
-    {
+  {
+    "id": 1,
+    "title": "WolCoff"
+  },
+  {
+    "id": 2,
+    "title": "Redes Sociais",
+    "quicklink": [
+      {
         "id": 1,
-        "title": "WolCoff"
-    },
-
-    {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/lindanevee/"
+      },
+      {
         "id": 2,
-        "title": "Redes Sociais",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Instagram",
-                "url": "https://www.instagram.com/lindanevee/"
-            },
-            {
-                "id": 2,
-                "text": "Facebook",
-                "url": "https://www.facebook.com/lindaneve.com.br"
-            }
-        ]
-    },
-
-    {
-        "id": 3,
-        "title": "Site",
-        "quicklink": [
-            {
-                "id": 1,
-                "text": "Sobre nós",
-                "url": "/#"
-            },
-            {
-                "id": 2,
-                "text": "Fintech",
-                "url": "/#"
-            },
-            {
-                "id": 3,
-                "text": "FAQ",
-                "url": "/#"
-            },
-            {
-                "id": 4,
-                "text": "Contato",
-                "url": "/#"
-            }
-        ]
-    },
-
-    {
+        "text": "Facebook",
+        "url": "https://www.facebook.com/lindaneve.com.br"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Site",
+    "quicklink": [
+      {
+        "id": 1,
+        "text": "Sobre nós",
+        "url": "#sobre"
+      },
+      {
+        "id": 2,
+        "text": "Fintech",
+        "url": "#fintech"
+      },
+      {
         "id": 4,
-        "title": "Ice Spice",
-        "subtitle": ""
-    }
+        "text": "Contato",
+        "url": "https://wa.me/message/TEJUZ4GJYQJOO1"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ice Spice",
+    "subtitle": "#sobre"
+  }
 ]

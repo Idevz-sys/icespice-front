@@ -64,7 +64,7 @@ const FooterOne = () => {
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
                                                 {indexTwoLink.map((data, index) => (
-                                                    <li key={index}><a href={`${data.url}`} target="_blank" rel="noreferrer">{data.text}</a></li>
+                                                    <li key={index}><a href={`${data.url}`} rel="noreferrer">{data.text}</a></li>
                                                 ))}
                                             </ul>
                                         </div>
