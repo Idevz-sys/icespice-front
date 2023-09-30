@@ -37,7 +37,7 @@ const AboutTwo = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                         <div className="read-more-btn mt--40 center-btn">
-                                            <Link className="btn-default btn-icon" to="wa.me/message/TEJUZ4GJYQJOO1">Contate-nos <i className="icon"><FiArrowRight /></i></Link>
+                                            <a className="btn-default btn-icon" href="https://wa.me/message/TEJUZ4GJYQJOO1" target="_blank" rel="noreferrer">Contate-nos <i className="icon"><FiArrowRight /></i></a>
                                         </div>
                                     </ScrollAnimation>
                                 </div>

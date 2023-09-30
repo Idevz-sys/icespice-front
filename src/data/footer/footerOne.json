@@ -28,22 +28,22 @@
             {
                 "id": 1,
                 "text": "Sobre nós",
-                "url": "/pricing"
+                "url": "/#"
             },
             {
                 "id": 2,
                 "text": "Fintech",
-                "url": "/team"
+                "url": "/#"
             },
             {
                 "id": 3,
                 "text": "FAQ",
-                "url": "/advance-tab"
+                "url": "/#"
             },
             {
                 "id": 4,
                 "text": "Contato",
-                "url": "/service"
+                "url": "/#"
             }
         ]
     },

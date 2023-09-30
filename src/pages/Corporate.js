@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import SEO from "../common/SEO";
 import { FiArrowRight } from "react-icons/fi";
@@ -12,6 +12,20 @@ import AboutThree from '../elements/about/AboutThree';
 import { Border } from '../components/Border/Border';
 
 const Corporate = () => {
+    useEffect(() => {
+        const button = document.getElementById('myButton');
+    
+        button.addEventListener('click', () => {
+          window.open('https://wa.me/message/TEJUZ4GJYQJOO1', '_blank');
+        });
+    
+        return () => {
+          button.removeEventListener('click', () => {
+            window.open('https://wa.me/message/TEJUZ4GJYQJOO1', '_blank');
+          });
+        };
+      }, []);
+      
     return (
         <>
             <SEO />
@@ -33,7 +47,7 @@ const Corporate = () => {
                                         <li style={{ color: 'white' }}>A sua próxima snow trip será inesquecível! Esteja pronto para escolher as suas roupas de ski em um closet chique e fashion.</li>
                                     </ul>
                                     <div className="button-group mt--40 mt_sm--20 center-btn">
-                                        <button className="btn-default btn-icon" target="_blank" href="wa.me/message/TEJUZ4GJYQJOO1">Já quer Alugar? Clique aqui <i className="icon"><FiArrowRight /></i></button>
+                                        <button id='myButton' className="btn-default btn-icon" target="_blank" href="https://wa.me/message/TEJUZ4GJYQJOO1">Já quer Alugar? Clique aqui <i className="icon"><FiArrowRight /></i></button>
                                     </div>
                                 </div>
                             </div>

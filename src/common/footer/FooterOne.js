@@ -3,6 +3,10 @@ import {Link} from "react-router-dom";
 // import Logo from "../../elements/logo/Logo";
 import footerOne from "../../data/footer/footerOne.json";
 import ScrollTop from "./ScrollTop";
+
+import facebook from '../../assets/images/icespice/facebook.svg';
+import instagram from '../../assets/images/icespice/instagram.svg';
+
 // const footerIntem =  footerOne[0];
 const footerIntemOne =  footerOne[1];
 const footerIntemTwo =  footerOne[2];
@@ -28,7 +32,7 @@ const FooterOne = () => {
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
                                                 {indexOneLink.map((data, index) => (
-                                                    <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                    <li key={index}><img className='iconSocial' src={`${index === 0 ? instagram : facebook}`} alt='icon'/><a href={`${data.url}`} target="_blank" rel="noreferrer">{data.text}</a></li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -42,8 +46,8 @@ const FooterOne = () => {
                                         <h4 className="title">Endereço</h4>
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
-                                                <li><Link to=''>Rua Exemplo, n00</Link></li>
-                                                <li><Link to=''>São Paulo - SP</Link></li>
+                                                <li><a href=''>Rua Exemplo, n00</a></li>
+                                                <li><a href=''>São Paulo - SP</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -60,7 +64,7 @@ const FooterOne = () => {
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
                                                 {indexTwoLink.map((data, index) => (
-                                                    <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                    <li key={index}><a href={`${data.url}`} target="_blank" rel="noreferrer">{data.text}</a></li>
                                                 ))}
                                             </ul>
                                         </div>
