@@ -41,7 +41,7 @@ const Corporate = () => {
                             <div className="col-lg-12">
                                 <div className="inner text-start">
                                     <div className='embreve'>
-                                        <img src="./images/icespice/emBreve.svg" alt="About Images" />
+                                        <img src="./images/icespice/emBreve.png" alt="About Images" width={518} height={361}/>
                                     </div>
                                     <ul className="list-icon">
                                         <li style={{ color: 'white' }}>A sua próxima snow trip será inesquecível! Esteja pronto para escolher as suas roupas de ski em um closet chique e fashion.</li>
