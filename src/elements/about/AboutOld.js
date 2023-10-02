@@ -16,15 +16,15 @@ const AboutOld = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <span className='tag-h1'>ELEVE PADRÕES</span>
-                                    <h2 className="title mt--10 title-three">Qualidade, excelência, bom gosto, sofisticação.</h2>
+                                    {/* <span className='tag-h1'>ELEVE PADRÕES</span> */}
+                                    <h2 className="title mt--10 title-three">Eleve Padrões</h2>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation 
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <p>Estamos prestes a elevar o padrão do aluguel de roupas de ski O maior Rent Place de qualidade está chegando, e você vai adorar cada minuto.</p>
+                                    <p>Qualidade, excelência, bom gosto, sofisticação.</p>
                                 </ScrollAnimation>
                                 <ScrollAnimation 
                                 animateIn="fadeInUp"

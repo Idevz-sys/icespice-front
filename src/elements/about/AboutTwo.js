@@ -22,8 +22,8 @@ const AboutTwo = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <span className='tag-h1'>AGUARDE</span>
-                                    <h2 className="title mt--10">Ice Spice está a caminho para atender o que for preciso para sua viagem de ski.</h2>
+                                    {/* <span className='tag-h1'>AGUARDE</span> */}
+                                    <h2 className="title mt--10">Aguarde</h2>
                                 </ScrollAnimation>
                                 
                                 <div className='description-card'>
@@ -31,7 +31,7 @@ const AboutTwo = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <p>Em breve, você terá acesso ao maior Rent Place de roupas de ski, onde o luxo e a qualidade se encontram. A Ice Spice está a caminho para atender a todas as suas necessidades.</p>
+                                        <p>Ice Spice está a caminho para atender o que for preciso para sua viagem de ski.</p>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
