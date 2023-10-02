@@ -22,8 +22,8 @@ const AboutThree = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <span className='tag-h1'>A LINDA NEVE</span>
-                                    <h2 className="title mt--10 title4">Está construindo o maior Rent Place do Brasil.. IceSpice</h2>
+                                    {/* <span className='tag-h1'>A LINDA NEVE</span> */}
+                                    <h2 className="title mt--10 title4">A Linda Neve</h2>
                                 </ScrollAnimation>
 
                                 <div className='description-card'>
@@ -31,7 +31,7 @@ const AboutThree = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <p>O seu aluguel de roupas de ski nunca mais será o mesmo! Em breve, você irá redefinir o padrão de excelência, no melhor lugar de todos: A ICE SPICE!</p>
+                                        <p>Está construindo o maior Rent Place do Brasil.. IceSpice</p>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
