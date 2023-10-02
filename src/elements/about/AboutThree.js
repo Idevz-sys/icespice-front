@@ -22,7 +22,8 @@ const AboutThree = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <h2 className="title mt--10 title4">Esta em construção o maior Rent Place do Brasil, o Ice Spice.</h2>
+                                    <span className='tag-h1'>A LINDA NEVE</span>
+                                    <h2 className="title mt--10 title4">Está construindo o maior Rent Place do Brasil.. IceSpice</h2>
                                 </ScrollAnimation>
 
                                 <div className='description-card'>

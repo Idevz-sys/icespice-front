@@ -110,9 +110,21 @@ h2.title.mt--10.title4 {
   color: white;
 }
 
+.tag-h1 {
+  position: absolute;
+  top: -38px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Elephant';
+}
+
 @media (max-width: 991px) {
   .list-icon {
     width: 100%;
+  }
+
+  .section-title {
+    margin-top: 31px;
   }
 
   .slider-area.slider-style-2.height-950.bg_image {

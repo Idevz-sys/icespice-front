@@ -16,7 +16,8 @@ const AboutOld = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <h2 className="title mt--10 title-three">Trazendo Luxo e Sofisticação para seu Estilo de Vida</h2>
+                                    <span className='tag-h1'>ELEVE PADRÕES</span>
+                                    <h2 className="title mt--10 title-three">Qualidade, excelência, bom gosto, sofisticação.</h2>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation 

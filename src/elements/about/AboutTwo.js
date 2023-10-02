@@ -22,7 +22,8 @@ const AboutTwo = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <h2 className="title mt--10">O seu aluguel &nbsp;de roupas de ski</h2>
+                                    <span className='tag-h1'>AGUARDE</span>
+                                    <h2 className="title mt--10">Ice Spice está a caminho para atender o que for preciso para sua viagem de ski.</h2>
                                 </ScrollAnimation>
                                 
                                 <div className='description-card'>
